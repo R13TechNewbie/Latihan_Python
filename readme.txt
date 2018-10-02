@@ -1,0 +1,4 @@
+How to Compile :
+1. Make sure your file have this header "#!/usr/bin/env"
+2. python filename.py
+ayamayamayamayamayamayamayamayamayamayamayamayamayamayam
