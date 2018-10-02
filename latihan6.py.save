@@ -1,0 +1,12 @@
+#!/usr/bin/python
+
+numbers=list(range(10))
+print(numbers)
+
+jarak=list(range(10,16))
+print(jarak)
+
+print(range(20))
+
+lagi=range(10)
+print(lagi)
