@@ -13,3 +13,16 @@ for kata in words:
 
 for kounter in range(10):
 	print("aku bukan ayam")
+
+gambar = 10
+
+for g in range(gambar+1):
+	print("p"*g)
+	
+for g in range(gambar+1,0,-1):
+	print("p"*g)
+	
+for g in range(gambar,0,-1):
+	print(" "*g)
+	for h in range(1,gambar,+2):
+		print("p"*h)

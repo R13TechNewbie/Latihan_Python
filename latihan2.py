@@ -9,6 +9,8 @@ if x==5:
 
 if (1+1==5) and (3-2==1):
 	print("a")
+elif (x == 144123) :
+	print("yes")
 else:
 	print(not 3)
 
