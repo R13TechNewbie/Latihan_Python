@@ -20,3 +20,22 @@ try:
 finally:
 	ayy.close()
 
+koleksiHewan = ["ayam","kambing","sapi","kucing","buaya","harimau"]
+
+daftarHewan = open("daftarHewan", "w")
+
+for hewan in koleksiHewan:
+	daftarHewan.write(hewan + "\n")
+	
+daftarHewan.close()
+
+bacaDaftarHewan = open("daftarHewan", "r")
+
+bacaFile = bacaDaftarHewan.read()
+barisPertama = bacaDaftarHewan.readline()
+
+print(barisPertama)
+for hewan in bacaFile:
+	print(hewan, end = '')
+
+bacaDaftarHewan.close()

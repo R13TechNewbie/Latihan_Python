@@ -12,3 +12,12 @@ print("Pengurangan = " + kurang)
 print("Perkalian = " + kali)
 print("Pembagian = " + bagi)
 
+skor = []
+
+for i in range (5):
+    nilaiSaatIni = int(input("Tolong masukkan nilai "+str(i+1)+" :" ))
+    skor.append(nilaiSaatIni)
+    
+print(skor)
+    
+
